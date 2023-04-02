@@ -1,13 +1,3 @@
----
-extra_gated_prompt: "You agree to not use the dataset to conduct experiments that cause harm to human subjects."
-extra_gated_fields:
- Name and Surname: text
- Email: text
- Purpose: text
- I agree to use this dataset for non-commercial use ONLY: checkbox
-license: openrail
----
-
 ![](https://user-images.githubusercontent.com/31247506/229346998-1e08344b-26fc-4978-89f7-0ecba076fe25.png)
 
 # azcorpus - The largest NLP corpus for Azerbaijani (1.9M documents, ~ 18M sentences)
