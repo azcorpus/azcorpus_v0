@@ -1,6 +1,8 @@
+
+
 ![](https://user-images.githubusercontent.com/31247506/229346998-1e08344b-26fc-4978-89f7-0ecba076fe25.png)
 
-# azcorpus - The largest NLP corpus for Azerbaijani (1.9M documents, ~ 18M sentences)
+# azcorpus - The largest open-source NLP corpus for Azerbaijani (1.9M documents, ~ 18M sentences)
 
 In recent years, deep learning models have been widely used in NLP, yielding excellent results. However, most research works in NLP have focused on high-resource languages such as English. There is a significant gap in NLP research for low- resource languages, Azerbaijani being no exception. So, the availability of adequate corpora for most of the languages is still limited, especially for less-resourced languages such as Azerbaijani. 
 
@@ -60,25 +62,11 @@ To obtain comprehensive guidance on how to use "azcorpus", please refer to the d
 ```python
 corpus = AzCorpus(access_token = "your_token")
 
-# To retrieve information pertaining to the authors of the corpus, utilize this particular section of code.
-corpus.authors
-
 # To obtain a corpus in the raw JSON format
 corpus.generate_samples()
 
 ```
-
-The application of specific parameters enables the customization of the corpus format to suit your preferences. AzCorpus currently supports a selection of parameters to support this functionality.
-
-#### General Parameters
-
-- corpus_output_format - [default="json"]
-  - This signifies the output formatting of the corpus. Can also be "dataframe";
-- corpus_source - [default="all"]
-  - This denotes the origin of the texts that comprise the corpus, wherein you can choose az_books, az_wiki, or az_news. By default, it retrieves texts from all available sources.;
-- corpus_reliability_rate - [default="all"]
-  - We have provided a subjective evaluation ranging from 0 to 5 by considering the quality of the resources utilized during the cleaning process of the corpus. You can choose 3, 4, or 5. By default, it retrieves all texts, regardless of rating.
-
+The download of the entire corpus is a process that entails a time span of approximately 25 minutes to 2 hours, contingent upon the velocity of your internet connection. Presently, our team is engrossed in the refinement of the download script with the objective of enhancing efficiency.
 ___
 ## Considerations for Using the Corpus
 
