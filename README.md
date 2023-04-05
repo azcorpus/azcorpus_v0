@@ -15,6 +15,7 @@ Therefore, this study aimed to contribute to the NLP research community by build
 
 Texts were selected from a variety of sources including newspapers, magazines, academic journals, wikipedia articles and books. The corpus includes both contemporary and historical texts, providing a rich linguistic and cultural context for natural language processing applications.
 
+We are hosting the corpus on [Hugging Face](https://huggingface.co/datasets/azcorpus/azcorpus_v0).
 ___
 
 ## Corpus structure
